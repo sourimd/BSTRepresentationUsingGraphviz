@@ -1,0 +1,7 @@
+First install GraphViz
+Then compile(if not already compiled in your system) and run the executable file.
+This will create .gv file.
+Then in the command line type this $ dot -Tpng tree.gv -o tree.png and hit enter.
+This will create the png file.
+Note: tree.gv and tree.png are the names that I am using..you may want to choose a 
+different name

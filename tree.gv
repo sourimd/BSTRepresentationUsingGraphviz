@@ -1,0 +1,21 @@
+digraph G{
+"15"[label="<f0>left|<f1>15|<f2>right",shape=Mrecord]
+"15":f0->"5"
+"5"[label="<f0>left|<f1>5|<f2>right",shape=Mrecord]
+"5":f0->"1"
+"1"[label="<f0>left|<f1>1|<f2>right",shape=Mrecord]
+"5":f2->"12"
+"12"[label="<f0>left|<f1>12|<f2>right",shape=Mrecord]
+"15":f2->"20"
+"20"[label="<f0>left|<f1>20|<f2>right",shape=Mrecord]
+"20":f0->"17"
+"17"[label="<f0>left|<f1>17|<f2>right",shape=Mrecord]
+"20":f2->"51"
+"51"[label="<f0>left|<f1>51|<f2>right",shape=Mrecord]
+"51":f0->"34"
+"34"[label="<f0>left|<f1>34|<f2>right",shape=Mrecord]
+"34":f2->"45"
+"45"[label="<f0>left|<f1>45|<f2>right",shape=Mrecord]
+"51":f2->"54"
+"54"[label="<f0>left|<f1>54|<f2>right",shape=Mrecord]
+}
